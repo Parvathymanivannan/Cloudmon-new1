@@ -1,0 +1,10 @@
+^C:\USERS\PARVA\DOCUMENTS\FLUTTER-DEV1\CLOUDMON-MOBILE\FL_LOGINDEMO-MASTER\BUILD\WINDOWS\CMAKEFILES\9295C94D19A54F8BD926D6089ED31A8D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/parva/Documents/Flutter-dev1/cloudmon-mobile/fl_logindemo-master/windows -BC:/Users/parva/Documents/Flutter-dev1/cloudmon-mobile/fl_logindemo-master/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/parva/Documents/Flutter-dev1/cloudmon-mobile/fl_logindemo-master/build/windows/fl_logindemo.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
